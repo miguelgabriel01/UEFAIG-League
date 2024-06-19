@@ -1,9 +1,12 @@
 const express = require('express');
-const app = express();
 const authRoutes = require('./routes/authRoutes');
 const coachRoutes = require('./routes/coachRoutes');
 const teamRoutes = require('./routes/teamRoutes');
 const playerRoutes = require('./routes/playerRoutes');
+const setupSwagger = require('./swagger');
+
+const app = express();
+setupSwagger(app);
 
 app.use(express.json());
 app.use('/api/auth', authRoutes);
