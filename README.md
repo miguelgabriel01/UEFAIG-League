@@ -1,7 +1,7 @@
 # Documentação dos Endpoints da API CopaCad
 
 ## Estrutura do projeto: 
-![image](https://github.com/miguelgabriel01/UEFAIG-League/assets/49694646/89eb6787-0146-4121-a2f6-9b3b38db5064)
+![image](https://github.com/miguelgabriel01/UEFAIG-League/assets/49694646/fcf53b45-90af-46e6-91bc-49e33a282b0d)
 
 ##### 1. Cadastro de Treinador
 
